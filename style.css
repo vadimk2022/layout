@@ -239,12 +239,18 @@
 :root main .wrapper .abblock .wrappblock .abblock1,
 :root main .wrapper .abblock .wrappblock .abblock2,
 :root main .wrapper .abblock .wrappblock .abblock3 {
+  padding-top: 60px;
+  text-align: center;
   color: #ffffff;
   width: 360px;
   height: 408px;
   display: inline-block;
   font-weight: 600;
   font-size: 18px;
+}
+:root main .wrapper .abblock .wrappblock .abblock2 {
+  margin-left: 59.5px;
+  margin-right: 59.5px;
 }
 :root main .wrapper .abblock .button3 {
   display: flex;

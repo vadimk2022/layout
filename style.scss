@@ -228,12 +228,18 @@
           .abblock1,
           .abblock2,
           .abblock3 {
+            padding-top: 60px;
+            text-align: center;
             color: #ffffff;
             width: 360px;
             height: 408px;
             display: inline-block;
             font-weight: 600;
             font-size: 18px;
+          }
+          .abblock2 {
+            margin-left: 59.5px;
+            margin-right: 59.5px;
           }
         }
         .button3 {
