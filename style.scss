@@ -2,7 +2,8 @@
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 auto;
-  max-width: 1920px;
+  width: 1920px;
+  max-height: 4102px;
   background-color: #f5f5f5;
   .header {
     background-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.5) 100%), url("./img/header_fon.png");
@@ -65,6 +66,7 @@
       position: relative;
       width: 983px;
       height: 269px;
+      opacity: 0.6;
       margin-left: auto;
       margin-right: auto;
       padding-top: 17px;
@@ -82,6 +84,7 @@
     }
     .button1 {
       display: flex;
+      margin-top: 100px;
       border: none;
       margin-top: 100px;
       background-color: #ffffff;
@@ -109,15 +112,18 @@
     .wrapper {
       margin-left: auto;
       margin-right: auto;
+      background-color: #ffffff;
       .logotype {
         width: 310px;
         height: 216px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        align-items: flex-end;
+        padding-top: 70px;
         .services {
           margin-left: 10px;
-          margin-top: 0px;
           position: absolute;
           text-align: center;
           color: #828282;
@@ -128,8 +134,8 @@
           top: 110px;
           left: 0px;
           position: relative;
-          width: 108.63px;
-          height: 93.94px;
+          width: 115.63px;
+          height: 220.94px;
         }
       }
       .infoblock {
@@ -169,7 +175,7 @@
       .button2 {
         display: flex;
         border: none;
-        margin-top: 100px;
+        margin-top: 50px;
         background-color: #ffffff;
         width: 180px;
         height: 70px;
@@ -196,6 +202,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 70px;
         .aboutus {
           position: absolute;
           text-align: center;
@@ -269,7 +276,7 @@
       }
       .testy {
         width: 456pxpx;
-        height: 196px;
+        height: 236px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -430,8 +437,9 @@
       }
     }
     .contact {
-      width: 456pxpx;
-      height: 196px;
+      width: 1903px;
+      height: 286px;
+      background-color: #fcfcfc;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -440,16 +448,18 @@
         color: #828282;
         font-weight: 800;
         font-size: 64px;
+        display: flex;
+        align-items: flex-end;
       }
     }
   }
   .footer {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 374px 314px;
     grid-template-rows: 1fr;
     grid-template-areas: "form communication";
-    gap: 10px;
+    gap: 100px;
   }
   .form {
     grid-area: form;
@@ -459,12 +469,14 @@
   }
 
   .footer {
-    width: 788px;
+    width: 1903px;
     height: 266px;
+    background-color: #fcfcfc;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-bottom: 50px;
     .form {
       form {
         display: flex;
@@ -473,7 +485,7 @@
       }
 
       label {
-        margin-top: 14px;
+        margin-top: 9px;
       }
 
       input[type="tel"],
@@ -529,7 +541,6 @@
     }
   }
   .fend {
-    margin-top: 20px;
     width: 1903px;
     height: 145px;
     background-color: #324b29;
