@@ -1,4 +1,5 @@
 :root {
+  //загальны стилі до сторінки.
   font-family: "Poppins", sans-serif;
   @font-face {
     font-family: "TTHoves";
@@ -10,6 +11,7 @@
   width: 1920px;
   max-height: 4102px;
   background-color: #f5f5f5;
+
   .header {
     background-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.5) 100%), url("./img/header_fon.png");
     width: 1903px;
@@ -91,7 +93,6 @@
       display: flex;
       margin-top: 100px;
       border: none;
-      margin-top: 100px;
       background-color: #ffffff;
       width: 180px;
       height: 70px;
@@ -101,11 +102,10 @@
       cursor: pointer;
       color: #48924f;
       font-weight: bolder;
-      font-size: 20px;
-      padding-top: 25px;
-      padding-bottom: 25px;
-      padding-left: 56px;
-      text-align: center;
+      font-size: 18px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
     }
     .button1:hover {
       background-color: #48924f;
@@ -121,12 +121,11 @@
       .logotype {
         width: 310px;
         height: 216px;
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         align-items: flex-end;
-        padding-top: 70px;
+        padding-top: 30px;
         .services {
           margin-left: 10px;
           position: absolute;
@@ -190,12 +189,11 @@
         cursor: pointer;
         color: #48924f;
         font-weight: bolder;
-        font-size: 20px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        padding-left: 56px;
-        text-align: center;
+        font-size: 18px;
         box-shadow: 0px 16px 30px 0px rgba(50, 175, 100, 0.15);
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
       }
       .button2:hover {
         background-color: #48924f;
@@ -226,7 +224,7 @@
       }
       .abblock {
         position: relative;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 100%, transparent 100%), url("./img/main_fon.png");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 100%, transparent 100%), url("./img/main_fon.png");
         width: 1903px;
         height: 732px;
         .wrappblock {
@@ -269,12 +267,11 @@
           cursor: pointer;
           color: #48924f;
           font-weight: bolder;
-          font-size: 20px;
-          padding-top: 25px;
-          padding-bottom: 25px;
-          padding-left: 56px;
-          text-align: center;
+          font-size: 18px;
           box-shadow: 0px 16px 30px 0px rgba(50, 175, 100, 0.15);
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
         }
         .button3:hover {
           background-color: #48924f;
@@ -457,6 +454,7 @@
         line-height: 0px;
         display: inline-block;
         vertical-align: middle;
+        text-decoration: none;
       }
     }
   }
@@ -533,7 +531,6 @@
     .communication img {
       width: 24px;
       height: 24px;
-      margin-top: 10px;
       vertical-align: middle;
       margin-right: 14px;
     }
