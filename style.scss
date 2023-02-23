@@ -1,5 +1,10 @@
 :root {
   font-family: "Poppins", sans-serif;
+  @font-face {
+    font-family: "TTHoves";
+    src: url(./fonts/TTHoves-Medium.ttf) format("ttf"), url(./fonts/TTHoves-Medium.woff) format("woff");
+    font-weight: 400;
+  }
   padding: 0;
   margin: 0 auto;
   width: 1920px;
@@ -291,7 +296,6 @@
       }
       .tableinfo {
         display: grid;
-        align-items: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 45px;
@@ -317,6 +321,7 @@
       width: 1199px;
       margin-left: auto;
       margin-right: auto;
+      padding-bottom: 50px;
       .set1 {
         display: inline-block;
         width: 577px;
@@ -440,18 +445,18 @@
     }
     .contact {
       width: 1903px;
-      height: 286px;
+      height: 216px;
       background-color: #fcfcfc;
-      text-align: center;
       display: flex;
       justify-content: center;
       .contactus {
-        text-align: center;
+        height: 96px;
         color: #828282;
         font-weight: 800;
         font-size: 64px;
-        display: flex;
-        align-items: flex-end;
+        line-height: 0px;
+        display: inline-block;
+        vertical-align: middle;
       }
     }
   }
@@ -459,7 +464,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: 374px 314px;
-    grid-template-rows: 1fr;
+    grid-template-rows: 266px;
     grid-template-areas: "form communication";
     gap: 100px;
   }
@@ -472,48 +477,42 @@
 
   .footer {
     width: 1903px;
-    height: 266px;
+    height: 316px; //532px-216px
     background-color: #fcfcfc;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     .form {
       form {
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
-      }
-
-      label {
-        margin-top: 9px;
+        margin-bottom: 50px;
       }
 
       input[type="tel"],
       input[type="email"],
       textarea {
-        vertical-align: middle;
         font-size: 24px;
         border: none;
         width: 374px;
         height: 56px;
-        box-sizing: border-box;
         border-radius: 61px;
-        resize: vertical;
         background-color: #9fdea9;
         cursor: pointer;
+        margin: 14px;
       }
       input[type="submit"] {
         width: 168px;
         height: 56px;
-        background-color: #9fdea9;
+        background-color: #fcfcfc;
         color: white;
-        padding: 12px 20px;
-        border: none;
+        border: 3px solid #4db96b;
         border-radius: 61px;
         cursor: pointer;
-        margin-top: 20px;
       }
       input[type="submit"]:hover {
         background-color: red;
@@ -528,18 +527,21 @@
       display: inline-block;
       gap: 5px;
       padding-bottom: 35px;
+      margin: 0px;
+      margin-bottom: 65px;
     }
     .communication img {
-      display: inline-block;
       width: 24px;
       height: 24px;
       margin-top: 10px;
-      vertical-align: top;
+      vertical-align: middle;
       margin-right: 14px;
     }
     .communication p {
+      font-family: TTHovest;
+      font-weight: 400;
       display: inline-block;
-      padding-bottom: 2px;
+      padding: 20px;
     }
   }
   .fend {
