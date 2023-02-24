@@ -13,7 +13,7 @@
   background-color: #f5f5f5;
 
   .header {
-    background-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.5) 100%), url("./img/header_fon.png");
+    background-image: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.5) 100%), url("./img/header_fon.webp");
     width: 1903px;
     height: 840px;
     margin: 0 auto;
@@ -224,7 +224,7 @@
       }
       .abblock {
         position: relative;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 100%, transparent 100%), url("./img/main_fon.png");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 100%, transparent 100%), url("./img/main_fon.webp");
         width: 1903px;
         height: 732px;
         .wrappblock {
